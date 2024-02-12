@@ -9,3 +9,8 @@ Both the applications have multilingual options ( Telugu , Hindi , English )
 
 P.S :
 Our Manuscript model has provided better outputs compared to Google Lens and Microsoft Bing Ai
+
+
+I advice to create a environment before running the code , may be that would be helpful
+
+# pip install googletrans==4.0.0-rc1 (run this in terminal if error occurs at the googletrans part)
