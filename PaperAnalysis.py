@@ -11,7 +11,7 @@ from googletrans import Translator
 translator = Translator()
 
 # Configure Google API for OpenAI
-genai.configure(api_key=os.getenv("AIzaSyB9P4tqNr9gdD_SEMg01SgCIIJGLGGYq0o"))
+genai.configure(api_key=os.getenv("GEMINI-API-KEY"))
 
 # Function to load Google Gemini Pro Vision API And get response
 def get_gemini_response(image, prompt):
